@@ -8,12 +8,12 @@
 
 int main()
 {
-    int i,j;
-    for(i=1;i<=5;i++)
+    int i,j; //variable declaration
+    for(i=1;i<=5;i++) //Outer loop
     {
-        for(j=1;j<=i;j++)
+        for (j = 1; j <= i; j++) //Inner loop
         {
-            printf("%d",i);
+            printf("%d", i);
         }
         printf("\n");
     }

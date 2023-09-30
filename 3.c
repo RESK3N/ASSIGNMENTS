@@ -1,16 +1,17 @@
 //program to show menu , take order and calculate the bill
 #include <stdio.h>
-int main()
+int main() // main function
 {
-    int c=0,t,n,p=0,s;
+    int t,n,s; //variable declaration
+    int p=0,c=0; // variable declaration and initialisation
     printf("____THE CHINA TOWN____\n");
     printf("MENU ->>\n ");
     printf("1> EGG CHOUMEIN = 60/- \n 2> CHICKEN CHOWMEIN = 75/- \n 3> CHILLY CHICKEN = 40/- \n 4> EGG FRIED RICE = 50/- \n 5> MIXED FRIED RICE = 65/- \n 6> COMPLETE ORDER \n ");
-    do
+    do //do while loop
     {
         printf("\nPLEASE ENTER YOUR SELECTION > ");
-        scanf("%d",&c);
-        if (c<6)
+        scanf("%d",&c); // selection input
+        if (c<6) //start of if-else sequence
         {
             printf("\nPLEASE ENTER NUMBER OF PORTIONS >>");
             scanf("%d",&n);
@@ -55,7 +56,7 @@ int main()
         {
             printf("WRONG SELECTION PLEASE TRY AGAIN !!!");
         }
-    } while (c!=6);
+    } while (c!=6); //loop condition
     printf("---------------------------------\n");
     printf("\n\nTOTAL NUMBER OF PORTIONS ORDERED >> %d \nYOUR GRAND TOTAL = %d",p,t);
     printf("\nENJOY YOUR MEAL !");
