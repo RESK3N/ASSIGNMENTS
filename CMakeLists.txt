@@ -8,5 +8,6 @@ add_executable(ASSIGNMENTS
       #  "pattern 2.c"
       #  china_town.c
        # esc_seq.c
-        swap.c
+       # swap.c
+        prime.c
 )
