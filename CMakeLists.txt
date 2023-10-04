@@ -6,7 +6,8 @@ set(CMAKE_C_STANDARD 23)
 add_executable(ASSIGNMENTS
        # "palindrome triangle.c"
         #  "pattern 1.c"
-      #  "pattern 2.c"
+        "alpha triangle.c"
+        #  "pattern 2.c"
       #  china_town.c
        # esc_seq.c
        # swap.c
