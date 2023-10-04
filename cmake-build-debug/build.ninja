@@ -49,8 +49,8 @@ cmake_ninja_workdir = E$:/ASSIGNMENTS/cmake-build-debug/
 
 build cmake_object_order_depends_target_ASSIGNMENTS: phony || CMakeFiles/ASSIGNMENTS.dir
 
-build CMakeFiles/ASSIGNMENTS.dir/palindrome_triangle.c.obj: C_COMPILER__ASSIGNMENTS_unscanned_Debug E$:/ASSIGNMENTS/palindrome$ triangle.c || cmake_object_order_depends_target_ASSIGNMENTS
-  DEP_FILE = CMakeFiles\ASSIGNMENTS.dir\palindrome_triangle.c.obj.d
+build CMakeFiles/ASSIGNMENTS.dir/pattern_1.c.obj: C_COMPILER__ASSIGNMENTS_unscanned_Debug E$:/ASSIGNMENTS/pattern$ 1.c || cmake_object_order_depends_target_ASSIGNMENTS
+  DEP_FILE = CMakeFiles\ASSIGNMENTS.dir\pattern_1.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ASSIGNMENTS.dir
   OBJECT_FILE_DIR = CMakeFiles\ASSIGNMENTS.dir
@@ -63,7 +63,7 @@ build CMakeFiles/ASSIGNMENTS.dir/palindrome_triangle.c.obj: C_COMPILER__ASSIGNME
 #############################################
 # Link the executable ASSIGNMENTS.exe
 
-build ASSIGNMENTS.exe: C_EXECUTABLE_LINKER__ASSIGNMENTS_Debug CMakeFiles/ASSIGNMENTS.dir/palindrome_triangle.c.obj
+build ASSIGNMENTS.exe: C_EXECUTABLE_LINKER__ASSIGNMENTS_Debug CMakeFiles/ASSIGNMENTS.dir/pattern_1.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ASSIGNMENTS.dir
