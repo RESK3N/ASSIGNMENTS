@@ -10,5 +10,7 @@ add_executable(ASSIGNMENTS
        # esc_seq.c
        # swap.c
        # prime.c
-        "fibonacci 1.c"
+       # "fibonacci 1.c"
+        "palindrome triangle.c"
+
 )

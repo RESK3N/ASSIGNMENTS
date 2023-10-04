@@ -98,7 +98,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "fibonacci 1.c",
+			"path" : "cmake-build-debug/palindrome triangle.c",
 			"sourceGroupIndex" : 0
 		}
 	],
