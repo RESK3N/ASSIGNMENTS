@@ -1,3 +1,4 @@
+//Program in c to check if a number is prime or composite
 #include<stdio.h>
 int main()
 {

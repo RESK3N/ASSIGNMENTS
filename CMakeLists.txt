@@ -9,5 +9,6 @@ add_executable(ASSIGNMENTS
       #  china_town.c
        # esc_seq.c
        # swap.c
-        prime.c
+       # prime.c
+        "fibonacci 1.c"
 )
