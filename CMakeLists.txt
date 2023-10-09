@@ -7,7 +7,8 @@ add_executable(ASSIGNMENTS
       #  alpha_triangle.c
        # infinite.c
         # hourglass_star.c
-        pattern_sq_star.c
+        #pattern_sq_star.c
+        list_demo.c
         #  china_town.c
        # esc_seq.c
        # swap.c
