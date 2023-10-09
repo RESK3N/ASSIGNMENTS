@@ -13,7 +13,7 @@ int main()
         n=(n/10);
     }
     if(r==num) // checking if palindrome
-        printf("It is a palindrome number");
+        printf("%d IS A PALINDROME NUMBER ",num);
     else
-        printf("It's not a palindrome number");
+        printf("%d IS NOT A PALINDROME NUMBER",num);
 }
