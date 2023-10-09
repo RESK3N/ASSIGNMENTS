@@ -49,8 +49,8 @@ cmake_ninja_workdir = E$:/ASSIGNMENTS/cmake-build-debug/
 
 build cmake_object_order_depends_target_ASSIGNMENTS: phony || CMakeFiles/ASSIGNMENTS.dir
 
-build CMakeFiles/ASSIGNMENTS.dir/list_demo.c.obj: C_COMPILER__ASSIGNMENTS_unscanned_Debug E$:/ASSIGNMENTS/list_demo.c || cmake_object_order_depends_target_ASSIGNMENTS
-  DEP_FILE = CMakeFiles\ASSIGNMENTS.dir\list_demo.c.obj.d
+build CMakeFiles/ASSIGNMENTS.dir/diamond.c.obj: C_COMPILER__ASSIGNMENTS_unscanned_Debug E$:/ASSIGNMENTS/diamond.c || cmake_object_order_depends_target_ASSIGNMENTS
+  DEP_FILE = CMakeFiles\ASSIGNMENTS.dir\diamond.c.obj.d
   FLAGS = -g -std=gnu2x -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ASSIGNMENTS.dir
   OBJECT_FILE_DIR = CMakeFiles\ASSIGNMENTS.dir
@@ -63,7 +63,7 @@ build CMakeFiles/ASSIGNMENTS.dir/list_demo.c.obj: C_COMPILER__ASSIGNMENTS_unscan
 #############################################
 # Link the executable ASSIGNMENTS.exe
 
-build ASSIGNMENTS.exe: C_EXECUTABLE_LINKER__ASSIGNMENTS_Debug CMakeFiles/ASSIGNMENTS.dir/list_demo.c.obj
+build ASSIGNMENTS.exe: C_EXECUTABLE_LINKER__ASSIGNMENTS_Debug CMakeFiles/ASSIGNMENTS.dir/diamond.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ASSIGNMENTS.dir
