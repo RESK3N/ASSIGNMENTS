@@ -10,7 +10,8 @@ add_executable(ASSIGNMENTS
         #pattern_sq_star.c
         #diamond.c
         #digits.c
-        palindrome.c
+       # palindrome.c
+        gcd.c
         # list_demo.c
         #  china_town.c
        # esc_seq.c
