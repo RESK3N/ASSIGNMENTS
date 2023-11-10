@@ -1,4 +1,7 @@
-"E:\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S E:\ASSIGNMENTS -B E:\ASSIGNMENTS\cmake-build-debug
--- Configuring done (0.5s)
--- Generating done (0.0s)
--- Build files have been written to: E:/ASSIGNMENTS/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/resken/CLionProjects/ASSIGNMENTS -B /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug
+-- Configuring done (0.0s)
+CMake Error at CMakeLists.txt:6 (add_executable):
+  No SOURCES given to target: ASSIGNMENTS
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
