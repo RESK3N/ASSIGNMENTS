@@ -9,7 +9,7 @@ int main()
     scanf("%d",&b);
     b=a+b;
     a=b-a;
-    b=b-a;
+    b=b-a; 
     printf("New value of A >> %d\n",a);
     printf("New value of B >> %d\n",b);
 }
