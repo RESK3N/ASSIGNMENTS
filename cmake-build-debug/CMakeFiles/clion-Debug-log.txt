@@ -1,7 +1,4 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/resken/CLionProjects/ASSIGNMENTS -B /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug
 -- Configuring done (0.0s)
-CMake Error at CMakeLists.txt:6 (add_executable):
-  No SOURCES given to target: ASSIGNMENTS
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug

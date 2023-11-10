@@ -17,5 +17,6 @@ add_executable(ASSIGNMENTS
        # esc_seq.c
        # swap.c
        # prime.c
-
+         P-01.c
+        P-04.c
 )

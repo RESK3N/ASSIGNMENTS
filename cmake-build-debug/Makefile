@@ -129,29 +129,53 @@ ASSIGNMENTS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/build
 .PHONY : ASSIGNMENTS/fast
 
-alpha_triangle.o: alpha_triangle.c.o
-.PHONY : alpha_triangle.o
+P-01.o: P-01.c.o
+.PHONY : P-01.o
 
 # target to build an object file
-alpha_triangle.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o
-.PHONY : alpha_triangle.c.o
+P-01.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-01.c.o
+.PHONY : P-01.c.o
 
-alpha_triangle.i: alpha_triangle.c.i
-.PHONY : alpha_triangle.i
+P-01.i: P-01.c.i
+.PHONY : P-01.i
 
 # target to preprocess a source file
-alpha_triangle.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.i
-.PHONY : alpha_triangle.c.i
+P-01.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-01.c.i
+.PHONY : P-01.c.i
 
-alpha_triangle.s: alpha_triangle.c.s
-.PHONY : alpha_triangle.s
+P-01.s: P-01.c.s
+.PHONY : P-01.s
 
 # target to generate assembly for a file
-alpha_triangle.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.s
-.PHONY : alpha_triangle.c.s
+P-01.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-01.c.s
+.PHONY : P-01.c.s
+
+P-04.o: P-04.c.o
+.PHONY : P-04.o
+
+# target to build an object file
+P-04.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-04.c.o
+.PHONY : P-04.c.o
+
+P-04.i: P-04.c.i
+.PHONY : P-04.i
+
+# target to preprocess a source file
+P-04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-04.c.i
+.PHONY : P-04.c.i
+
+P-04.s: P-04.c.s
+.PHONY : P-04.s
+
+# target to generate assembly for a file
+P-04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/P-04.c.s
+.PHONY : P-04.c.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ASSIGNMENTS"
-	@echo "... alpha_triangle.o"
-	@echo "... alpha_triangle.i"
-	@echo "... alpha_triangle.s"
+	@echo "... P-01.o"
+	@echo "... P-01.i"
+	@echo "... P-01.s"
+	@echo "... P-04.o"
+	@echo "... P-04.i"
+	@echo "... P-04.s"
 .PHONY : help
 
 

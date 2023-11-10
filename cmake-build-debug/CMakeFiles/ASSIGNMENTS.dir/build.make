@@ -69,31 +69,47 @@ include CMakeFiles/ASSIGNMENTS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ASSIGNMENTS.dir/flags.make
 
-CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o: CMakeFiles/ASSIGNMENTS.dir/flags.make
-CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o: /Users/resken/CLionProjects/ASSIGNMENTS/alpha_triangle.c
-CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o: CMakeFiles/ASSIGNMENTS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o -MF CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o.d -o CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o -c /Users/resken/CLionProjects/ASSIGNMENTS/alpha_triangle.c
+CMakeFiles/ASSIGNMENTS.dir/P-01.c.o: CMakeFiles/ASSIGNMENTS.dir/flags.make
+CMakeFiles/ASSIGNMENTS.dir/P-01.c.o: /Users/resken/CLionProjects/ASSIGNMENTS/P-01.c
+CMakeFiles/ASSIGNMENTS.dir/P-01.c.o: CMakeFiles/ASSIGNMENTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/ASSIGNMENTS.dir/P-01.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ASSIGNMENTS.dir/P-01.c.o -MF CMakeFiles/ASSIGNMENTS.dir/P-01.c.o.d -o CMakeFiles/ASSIGNMENTS.dir/P-01.c.o -c /Users/resken/CLionProjects/ASSIGNMENTS/P-01.c
 
-CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/resken/CLionProjects/ASSIGNMENTS/alpha_triangle.c > CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.i
+CMakeFiles/ASSIGNMENTS.dir/P-01.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASSIGNMENTS.dir/P-01.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/resken/CLionProjects/ASSIGNMENTS/P-01.c > CMakeFiles/ASSIGNMENTS.dir/P-01.c.i
 
-CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/resken/CLionProjects/ASSIGNMENTS/alpha_triangle.c -o CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.s
+CMakeFiles/ASSIGNMENTS.dir/P-01.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASSIGNMENTS.dir/P-01.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/resken/CLionProjects/ASSIGNMENTS/P-01.c -o CMakeFiles/ASSIGNMENTS.dir/P-01.c.s
+
+CMakeFiles/ASSIGNMENTS.dir/P-04.c.o: CMakeFiles/ASSIGNMENTS.dir/flags.make
+CMakeFiles/ASSIGNMENTS.dir/P-04.c.o: /Users/resken/CLionProjects/ASSIGNMENTS/P-04.c
+CMakeFiles/ASSIGNMENTS.dir/P-04.c.o: CMakeFiles/ASSIGNMENTS.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ASSIGNMENTS.dir/P-04.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/ASSIGNMENTS.dir/P-04.c.o -MF CMakeFiles/ASSIGNMENTS.dir/P-04.c.o.d -o CMakeFiles/ASSIGNMENTS.dir/P-04.c.o -c /Users/resken/CLionProjects/ASSIGNMENTS/P-04.c
+
+CMakeFiles/ASSIGNMENTS.dir/P-04.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ASSIGNMENTS.dir/P-04.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/resken/CLionProjects/ASSIGNMENTS/P-04.c > CMakeFiles/ASSIGNMENTS.dir/P-04.c.i
+
+CMakeFiles/ASSIGNMENTS.dir/P-04.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ASSIGNMENTS.dir/P-04.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/resken/CLionProjects/ASSIGNMENTS/P-04.c -o CMakeFiles/ASSIGNMENTS.dir/P-04.c.s
 
 # Object files for target ASSIGNMENTS
 ASSIGNMENTS_OBJECTS = \
-"CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o"
+"CMakeFiles/ASSIGNMENTS.dir/P-01.c.o" \
+"CMakeFiles/ASSIGNMENTS.dir/P-04.c.o"
 
 # External object files for target ASSIGNMENTS
 ASSIGNMENTS_EXTERNAL_OBJECTS =
 
-ASSIGNMENTS: CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o
+ASSIGNMENTS: CMakeFiles/ASSIGNMENTS.dir/P-01.c.o
+ASSIGNMENTS: CMakeFiles/ASSIGNMENTS.dir/P-04.c.o
 ASSIGNMENTS: CMakeFiles/ASSIGNMENTS.dir/build.make
 ASSIGNMENTS: CMakeFiles/ASSIGNMENTS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ASSIGNMENTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ASSIGNMENTS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ASSIGNMENTS.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/resken/CLionProjects/ASSIGNMENTS/alpha_triangle.c" "CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o" "gcc" "CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o.d"
+  "/Users/resken/CLionProjects/ASSIGNMENTS/P-01.c" "CMakeFiles/ASSIGNMENTS.dir/P-01.c.o" "gcc" "CMakeFiles/ASSIGNMENTS.dir/P-01.c.o.d"
+  "/Users/resken/CLionProjects/ASSIGNMENTS/P-04.c" "CMakeFiles/ASSIGNMENTS.dir/P-04.c.o" "gcc" "CMakeFiles/ASSIGNMENTS.dir/P-04.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

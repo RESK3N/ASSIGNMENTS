@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "ASSIGNMENTS"
   "ASSIGNMENTS.pdb"
-  "CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o"
-  "CMakeFiles/ASSIGNMENTS.dir/alpha_triangle.c.o.d"
+  "CMakeFiles/ASSIGNMENTS.dir/P-01.c.o"
+  "CMakeFiles/ASSIGNMENTS.dir/P-01.c.o.d"
+  "CMakeFiles/ASSIGNMENTS.dir/P-04.c.o"
+  "CMakeFiles/ASSIGNMENTS.dir/P-04.c.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

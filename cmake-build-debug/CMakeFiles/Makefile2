@@ -81,12 +81,12 @@ clean: CMakeFiles/ASSIGNMENTS.dir/clean
 CMakeFiles/ASSIGNMENTS.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ASSIGNMENTS.dir/build.make CMakeFiles/ASSIGNMENTS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target ASSIGNMENTS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ASSIGNMENTS"
 .PHONY : CMakeFiles/ASSIGNMENTS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ASSIGNMENTS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ASSIGNMENTS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/resken/CLionProjects/ASSIGNMENTS/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/ASSIGNMENTS.dir/rule
