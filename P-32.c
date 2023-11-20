@@ -10,4 +10,3 @@ int main()
     else
         printf("The character entered is a consonant");
 }
-
