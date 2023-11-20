@@ -6,7 +6,7 @@ according to specific marks:
 60 to 70:B
 45 to 60:C
 <45:D
- */
+               */
 #include<stdio.h>
 int main()
 {
